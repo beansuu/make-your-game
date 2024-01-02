@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <title>Bomberman</title>
     <style>
-        #game-container {
-            width: 800px;
-            height: 600px;
-            position: relative;
-            background-color: #f0f0f0;
-            overflow: hidden;
+        html, body {
+            height: 100%;
+            margin: 0;
         }
-        .player {
-            width: 50px;
-            height: 50px;
-            background-color: blue;
-            position: absolute;
+
+        body {
+            background: rgb(28, 26, 26);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        canvas {
+            background: white;
         }
     </style>
 </head>
